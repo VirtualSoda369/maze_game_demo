@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="game_div">
+
+        <div class="difficulty_div">
+            <label class="difficulty_label">Select difficulty</label>
+            <br>
+            <br>
+            <label class="difficulty_label">Normal</label>
+            <input type="radio" name="difficulty" class="radiobtn">
+            <br>
+            <br>
+            <label class="difficulty_label">Hard</label>
+            <input type="radio" name="difficulty" class="radiobtn" id="hard">
+            <br>
+            <br>
+            <button class="btn_new_maze">Generate new maze</button>
+        </div>
+    
+    
+        <div id="container">
+            <div id="maze"></div>
+        </div>
+
+    </div>
+
+
+
+  
+
+    <link rel="stylesheet" href="maze.css">
+    <script src="./maze_gen.js"></script>
+    <script src="./maze_game_logic.js"></script>
+</body>
+
+
+</html>
